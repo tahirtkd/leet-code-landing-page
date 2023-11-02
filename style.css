@@ -1,0 +1,294 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-family: 'Syne', sans-serif;
+}
+
+header {
+    /* position: absolute; */
+    padding: 30px 50px;
+    text-align: center;
+}
+
+.header_div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_li ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+.header_li li {
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+.header_div h1 {
+    color: rgb(178, 61, 235);
+}
+
+.code {
+    color: #fff;
+}
+
+.login {
+    color: rgb(178, 61, 235);
+}
+
+.header_b {
+    padding: 10px 20px;
+    background-color: #B23DEB;
+    border-radius: 50px;
+    border: none;
+    color: #fff;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.header_h {
+    display: flex;
+    text-align: center;
+}
+
+.firstpara {
+    display: flex;
+    align-items: center;
+    /* height: 100%; */
+}
+
+.circle2 {
+    position: absolute;
+    margin-right: 80px;
+}
+
+.firstpara_div {
+    align-items: center;
+    width: 800px;
+    margin: 20px 120px;
+    word-spacing: 5px;
+}
+
+.firstpara_img {
+    width: 100%;
+}
+
+.firstpara_div h1 {
+    font-size: 60px;
+    color: #B23DEB;
+}
+
+.firstpara_div p {
+    font-size: 20px;
+}
+
+.firstpara_div button {
+    padding: 12px 25px;
+    font-size: 15px;
+    background-color: #B23DEB;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+body {
+    background: rgb(178, 61, 235);
+    background: linear-gradient(90deg, rgba(178, 61, 235, 0.5858718487394958) 0%, rgba(255, 255, 255, 0.6138830532212884) 39%);
+}
+
+.secondpara {
+    display: flex;
+    align-items: center;
+    margin: 24px 80px;
+}
+
+.secondpara_div1 {
+    padding-right: 40px;
+}
+
+.secondpara_div button {
+    padding: 12px 25px;
+    font-size: 15px;
+    background-color: #B23DEB;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.secondpara_div {
+    word-spacing: 5px;
+}
+
+.secondpara_div h1 {
+    margin: 10px 0px;
+    color: #B23DEB;
+    ;
+}
+
+.secondpara_div p {
+    margin: 10px 0px;
+}
+
+/* .button {
+    background-color: transparent;
+    border: 1px white;
+} */
+footer {
+    margin: 10px auto;
+    padding: 15px 50px;
+    background-color: #fff;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 1px solid black;
+}
+
+.footer_icons {
+    cursor: pointer;
+}
+
+.footer_ul {
+    list-style: none;
+    line-height: 25px;
+    color: #000;
+    margin: 5px 20px;
+    cursor: pointer;
+}
+
+
+
+.new {
+    color: #fff;
+}
+
+.div2 h4 {
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.div2 p {
+    margin: 5px;
+}
+
+
+.footer_img {
+    margin-top: -50px;
+
+}
+
+.firstpara_img img {
+    height: 500px;
+}
+
+footer {
+    border-bottom: 1px solid black;
+}
+
+.bottom_flex {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px;
+}
+
+.footer_span {
+    text-decoration: underline;
+    margin: 0px 5px;
+}
+
+@media screen and (max-width: 480px) {
+    .firstpara {
+        flex-direction: column;
+    }
+
+    .firstpara_div {
+        width: 300px;
+        margin: 50px;
+        word-spacing: 5px;
+    }
+
+    header {
+        padding: 30px 15px;
+
+    }
+
+    .header_div h1 {
+        font-size: 20px;
+
+    }
+
+    .header_li li {
+        margin: 0px 10px;
+
+    }
+
+    .header_b {
+        padding: 5px 15px;
+        font-size: 10px;
+
+    }
+
+    .header_li ul {
+        font-size: 10px;
+    }
+
+    .new {
+        color: rgb(195 143 221);
+    }
+
+    .firstpara_div h1 {
+        font-size: 40px;
+
+    }
+
+    .firstpara_div p {
+        font-size: 15px;
+    }
+
+    .firstpara_div button {
+        padding: 15px 25px;
+        font-size: 15px;
+        background-color: #B23DEB;
+        color: white;
+        border: none;
+        margin-top: 20px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    .firstpara_img img {
+        height: 400px;
+        margin-left: 30px;
+    }
+
+    .secondpara {
+        flex-direction: column;
+    }
+
+    .secondpara_div1 img {
+        height: 300px;
+        margin-top: 50px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .bottom_flex {
+        flex-direction: column;
+    }
+}
